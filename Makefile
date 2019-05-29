@@ -23,7 +23,7 @@ deps:
 	go get labix.org/v2/mgo
 	# added to fix travis issues
 	go get github.com/satori/go.uuid
-	go get -u golang.org/x/crypto/bcrypt
+	go get golang.org/x/crypto/bcrypt
 
 test-deps:
 	go get github.com/smartystreets/goconvey
